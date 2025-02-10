@@ -1,13 +1,26 @@
-# tutorial-CRUD-SpringBoot
- Pagina basica siguiendo tutorial de youtube para aprender conceptos basicos de CRUD en SpringBoot.
+# Tutorial CRUD con Spring Boot
 
-## Como utilizar la pagina:
+Este es un proyecto básico que hice siguiendo un tutorial de YouTube para aprender los conceptos fundamentales de CRUD en Spring Boot.
 
--Crear un proyecto Maven (por ejemplo utilizando Eclipse).
--Copiar los contenidos en sus respectivas carpetas:
-    1) el contenido de resources en la carpeta resources creada al crear el proyecto maven.
-    2) el contenido de tutorialStore en la carpeta 'src/main/java/com/"nombreUsuario"/"nombreProyecto"' creada al crear el proyecto maven. (Podría ser necesario crear los paquetes y copiar los archivos.java dentro de cada uno según corresponda).
--Reemplazar los datos necesarios de la conexion a la base de datos en el archivo application.properties
+## 📌 Requisitos previos
+- Tener instalado **Java** y **Maven**.
+- Un IDE compatible, como **Eclipse** o **IntelliJ IDEA**.
+- Una base de datos configurada (MySQL, PostgreSQL, etc.).
 
-Opcional:
--En la carpeta public/images hay unas imagenes utilziadas en mi testeo, pero deberian crearse antes los datos en la base y copiar las url.
+## 🚀 Cómo utilizar la página
+
+1. **Crear un nuevo proyecto Maven** en tu IDE.
+2. **Copiar los archivos en sus respectivas carpetas**:
+   - El contenido de **`resources/`** debe ir en la carpeta `src/main/resources/` del proyecto.
+   - El contenido de **`tutorialStore/`** debe ir en `src/main/java/com/"nombreUsuario"/"nombreProyecto"/`.
+     - Es posible que necesites crear los paquetes manualmente y colocar los archivos `.java` en sus respectivas ubicaciones.
+
+3. **Configurar la conexión a la base de datos**  
+   - Editar el archivo `application.properties` y reemplazar los datos de conexión según tu configuración.
+
+### 📂 Recursos opcionales
+- En la carpeta `public/images/` hay imágenes utilizadas en las pruebas.  
+  - Para que se muestren correctamente, primero se deben crear los datos en la base de datos y copiar las URLs correspondientes.
+
+## 📜 Licencia
+Este proyecto es solo para fines educativos y de aprendizaje.
