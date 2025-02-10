@@ -9,7 +9,8 @@ Este es un proyecto básico que hice siguiendo un tutorial de YouTube para apren
 
 ## 🚀 Cómo utilizar la página
 
-1. **Crear un nuevo proyecto Maven** en tu IDE.
+1. **Crear un nuevo proyecto Maven** en tu IDE o con Spring initializr (si no usas initializr recuerda agregar las dependencias). ![Spring Initializr](https://imgur.com/iTuSKUJ.png)
+
 2. **Copiar los archivos en sus respectivas carpetas**:
    - El contenido de **`resources/`** debe ir en la carpeta `src/main/resources/` del proyecto.
    - El contenido de **`tutorialStore/`** debe ir en `src/main/java/com/"nombreUsuario"/"nombreProyecto"/`.
@@ -24,3 +25,4 @@ Este es un proyecto básico que hice siguiendo un tutorial de YouTube para apren
 
 ## 📜 Licencia
 Este proyecto es solo para fines educativos y de aprendizaje.
+El tutorial seguido es el siguiente: https://www.youtube.com/watch?v=6zfIxgaVkQI
